@@ -1,7 +1,8 @@
 import React from 'react';
 import './AboutPage.css'; 
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/about_profile.svg'
+// import profile_img from '../../assets/about_profile.svg'
+import resume_pfp from '../../assets/Resume_pfp.jpeg';  
 
 const AboutPage = () => {
   return (
@@ -13,7 +14,7 @@ const AboutPage = () => {
           </div>
           <div className="about-sections">
             <div className="about-left">
-                <img src={profile_img} alt="" />
+                <img src={resume_pfp} alt="" />
             </div>
             <div className="about-right">
                 <div className="about-para">
@@ -32,19 +33,19 @@ const AboutPage = () => {
           </div>
           <div className="about-achievements">
             <div className="about-achievement">
-                <h1>10+</h1>
+                <h1>4+</h1>
                 <p> years of experience</p>
             </div>
             <hr/>
             <div className="about-achievement">
-                <h1>90+</h1>
+                <h1>7+</h1>
                 <p> projects completed</p>
             </div>
             <hr />
-            <div className="about-achievement">
+            {/* <div className="about-achievement">
                 <h1>15+</h1>
                 <p> happy clients</p>
-            </div>
+            </div> */}
           </div>
         </div>
   );
