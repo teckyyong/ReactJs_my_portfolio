@@ -2,7 +2,7 @@ import React from 'react';
 import './AboutPage.css'; 
 import theme_pattern from '../../assets/theme_pattern.svg'
 // import profile_img from '../../assets/about_profile.svg'
-import resume_pfp from '../../assets/Resume_pfp.jpeg';  
+import resume_pfp from '../../assets/resume_pfp.jpeg';  
 
 const AboutPage = () => {
   return (
