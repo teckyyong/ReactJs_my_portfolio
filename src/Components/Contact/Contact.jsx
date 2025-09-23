@@ -45,7 +45,7 @@ const Contact = () => {
                         <img src={mail_icon} alt="" /> <p>lty2004january@gmail.com</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={call_icon} alt="" /> <p>+3232323232</p>
+                        <img src={call_icon} alt="" /> <p>+60172453079</p>
                     </div>
                     <div className="contact-detail">
                         <img src={location_icon} alt="" /> <p>PJ, Selangor</p>
@@ -56,7 +56,7 @@ const Contact = () => {
                 <label htmlFor="Your Name"></label>
                 <input type="text" placeholder='Enter Your name' name = 'name' />
                 <label htmlFor="">Your email</label>
-                <input type="email" placeholder ='ENter your email' name = 'email' />
+                <input type="email" placeholder ='Enter your email' name = 'email' />
                 <label htmlFor="">Write your message here</label>
                 <textarea name="message" rows="8" placeholder="Enter your message"></textarea>
                 <button type ='submit' className="contact-submit">Submit now</button>

@@ -1,4 +1,4 @@
-.hero{
+/* .hero{
     display:flex;
     align-items: center;
     flex-direction: column;
@@ -53,6 +53,107 @@
 }
 .hero-resume:hover{
     border-color: #e5d8eb
+}
+@media(max-width:768px){
+    .hero img{
+        margin-top: 120px;
+        width: 260px;
+    }
+    .hero h1{
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+    }
+    .hero p{
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+    .hero-action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    .hero-connect{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+    .hero-resume{
+        padding: 20px 50px;
+        border-radius: 40px;
+    }
+}
+
+ */
+
+
+ .hero{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.hero img{
+    margin-top: 150px;
+    width: 700px;
+    height: 700px;
+}
+.hero h1{
+    text-align: center;
+    width: 70%;
+    font-size: 90px;
+    font-weight: 600;
+}
+.hero h1 span{
+    /* was: linear-gradient(270deg, #17e4e0 10%, #c40bed 100%) */
+    background: linear-gradient(270deg, #4F46E5 0%, #F59E0B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+    /* softer secondary text */
+    color: #3271ee;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.hero-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    /* was: linear-gradient(264deg, #1308df -5.09%, #470865 106.28%) */
+    background: linear-gradient(264deg, #4F46E5 -5.09%, #6366F1 106.28%);
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.hero-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    /* was: 2px solid #FFF */
+    border: 2px solid #E5E7EB;
+    color: #111827;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+.hero-connect:hover{
+    border: 2px solid #F59E0B;
+}
+.hero-resume:hover{
+    border-color: #F59E0B;
+    color: #111827;
+    background: #FFF7ED; /* soft amber tint */
 }
 @media(max-width:768px){
     .hero img{

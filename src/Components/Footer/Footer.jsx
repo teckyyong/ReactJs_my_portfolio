@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             <hr />
             <div className="footer-bottom">
-                <p className="footer-bottom-left">0 2023 teck yong. all right reserved</p>
+                <p className="footer-bottom-left">2023 teck yong. all right reserved</p>
                 <div className="footer-bottom-right">
                     <p>term of services</p>
                     <p>Privacy Policy</p>
