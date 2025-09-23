@@ -9,11 +9,28 @@
 .about-title{
     position: relative;
 }
-.about-title h1{
+/* .about-title h1{
     padding: 0px 30px;
     font-size: 80px;
     font-weight: 600;
+} */
+.about-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+    color:  #5789ed; /* Blue 600 from Tailwind palette */
 }
+
+.about-para {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color:  #5789ed; /* Make intro text blue */
+}
+
+
 .about-title img{
     position: absolute;
     bottom:0;
@@ -29,13 +46,13 @@
     flex-direction: column;
     gap: 80px;
 }
-.about-para{
+/* .about-para{
     display:flex;
     flex-direction: column;
     gap: 20px;
     font-size: 20px;
     font-weight: 500;
-}
+} */
 .about-skills{
     display: flex;
     flex-direction: column;
